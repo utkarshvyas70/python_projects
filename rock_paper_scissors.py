@@ -8,7 +8,7 @@ elif user_input=="Rock" and computer=="Scissors":
     print("You win")
 elif user_input=="Rock" and computer=="Rock":
     print("It is a draw")
-elif user_input=="Paper" and computer=="Ssissors":
+elif user_input=="Paper" and computer=="Scissors":
     print("You win")
 elif user_input=="Paper" and computer=="Rock":
     print("You loose")
