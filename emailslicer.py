@@ -7,8 +7,12 @@ emailId=input("Enter your eamil id: ")
 username=emailId[:emailId.index("@")]
 
 #Now commanding to sort the eamil id after @.
-domain=emailId[emailId.index("@")+1:]
+domain_=emailId[emailId.index("@")+1:]
+
+#uppercasing the domain.
+
+domain__=domain_.upper()
 
 #print the statement using format method.
 
-print(f"Your desired username is {username} and your desired domain is {domain}")
+print(f"Your desired username is {username} and your desired domain is {domain__}")
